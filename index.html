@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Wanikani</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<header>
+		<!-- my API 		42fceeb6f58b7cbacee7b3e1ee9d0b00 -->
+		<div class="headerWrapper">
+			<div class="headerTitle">
+				<h1>Wanikani</h1>
+				<h3>A Crabigator Companion</h3>
+			</div>
+			<!-- <div class="userInfo">
+				<h4>Username:<span>{USERNAME}</span></h4>
+				<h4>Level:<span>{LEVEL}</span></h4>
+				<h4>Burned Items:<span>{BURNED_ITEMS}</span></h4>
+			</div> -->
+		</div>
+	</header>
+
+<section class="mainWrapper">
+	<p>This site is for those followers of the crabigator who've accumulated a stack of burned items and wants a little supplementary review time! Throw your API in below and get started!</p>
+
+	<form action="">
+	<input type="text" placeholder="api key" id="apiKey">
+	<button for="apiKey" type="submit" id="apiKeyButton">Submit!</button>
+	</form>
+<!-- JS sensitive code vvvv -->
+	
+
+	<div class="results">
+		
+	</div>
+
+	<div class="buttonContainer"></div>
+
+	<div class="quizScore">
+		<h4>Score:
+		<span class="currentScore">0</span>
+		<!--/
+		 <span class="outOf">0</span>   	decide if here is the right place		-->
+		</h4>
+	</div>
+
+	<div class="logo">
+		<img src="images/Mascot01.png" alt="">
+	</div>
+	<!-- <button class="show">Show answer</button>
+	<button class="correct">Correct</button>
+	<button class="wrong">Wrong</button>
+	<button class="finish">Finish</button>
+	<button id="resetQuiz">Reset!</button> -->
+
+<!-- JS sensitive code ^^^^^ -->
+</section>
+<footer>
+	<!-- <p>A website by Joel McKnight. Content provided by Tofugu & WaniKani</p> -->
+</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
